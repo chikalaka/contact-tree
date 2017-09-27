@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {getContactsFromDB} from "./api/data";
 
 class App extends Component {
   render() {
+    const contacts = getContactsFromDB;
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="app-container">
+        <h1>Contact Tree</h1>
+        The tree...
       </div>
     );
   }
