@@ -1,0 +1,8 @@
+.contact {
+	line-height: 25px;
+	padding: 5px;
+}
+
+.contact:hover {
+	background-color: lightblue;
+}
